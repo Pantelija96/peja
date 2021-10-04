@@ -256,7 +256,7 @@
                 <!-- Button Close End -->
 
                 <!-- Offcanvas Search Form Start -->
-                <form class="offcanvas-search-form" action="index.html#">
+                <form class="offcanvas-search-form" action="#">
                     <input type="text" placeholder="Search Products...">
                 </form>
                 <!-- Offcanvas Search Form End -->
@@ -310,106 +310,26 @@
     </div>
     <!-- Hero/Intro Slider End -->
 
-    <!-- About Section Start -->
-    <div class="section section-padding overflow-hidden">
-        <div class="container">
-            <!-- Section Title Start -->
-            <div class="section-title" data-aos="fade-up" data-aos-delay="200">
-                <h2 class="title">What We Do</h2>
-                <span></span>
-                <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <!-- Section Title End -->
-
-            <!-- About Image/Timeline Start -->
-            <div class="row mb-n7">
-                <div class="col-lg-6 col-12 mb-7">
-                    <div class="row no-gutters">
-                        <div class="col-6 pe-1">
-                            <!-- About Single Image Start -->
-                            <div class="about-image overlay mb-2" data-aos="fade-right" data-aos-delay="400">
-                                <img src="assets/images/about/about-1.jpg" alt="About Image">
-                            </div>
-                            <!-- About Single Image End -->
-
-                            <!-- About Single Image Start -->
-                            <div class="about-image overlay" data-aos="fade-right" data-aos-delay="500">
-                                <img src="assets/images/about/about-2.jpg" alt="About Image">
-                            </div>
-                            <!-- About Single Image End -->
-                        </div>
-                        <div class="col-6 ps-1">
-                            <!-- About Single Image Start -->
-                            <div class="about-image overlay" data-aos="fade-right" data-aos-delay="300">
-                                <img src="assets/images/about/about-3.jpg" alt="About Image">
-                            </div>
-                            <!-- About Single Image End -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-12 align-self-center mb-n7">
-                    <!-- Feature Box Wrapper Start -->
-                    <div class="feature-box-wrapper feature-box-border mb-7 pb-7" data-aos="fade-left" data-aos-delay="300">
-                        <div class="feature-box-icon">
-                            <img src="assets/images/icon/about-icon-1.png" alt="About Icon">
-                        </div>
-                        <div class="feature-content">
-                            <h4 class="title">Project Buildings</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eius tempor inci ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                        </div>
-                    </div>
-                    <!-- Feature Box Wrapper End -->
-
-                    <!-- Feature Box Wrapper Start -->
-                    <div class="feature-box-wrapper feature-box-border mb-7 pb-7" data-aos="fade-left" data-aos-delay="400">
-                        <div class="feature-box-icon">
-                            <img src="assets/images/icon/about-icon-2.png" alt="About Icon">
-                        </div>
-                        <div class="feature-content">
-                            <h4 class="title">Home Maintenance</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eius tempor inci ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                        </div>
-                    </div>
-                    <!-- Feature Box Wrapper End -->
-
-                    <!-- Feature Box Wrapper Start -->
-                    <div class="feature-box-wrapper feature-box-border mb-7 pb-7" data-aos="fade-left" data-aos-delay="500">
-                        <div class="feature-box-icon">
-                            <img src="assets/images/icon/about-icon-3.png" alt="About Icon">
-                        </div>
-                        <div class="feature-content">
-                            <h4 class="title">Electrical Project</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eius tempor inci ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                        </div>
-                    </div>
-                    <!-- Feature Box Wrapper End -->
-                </div>
-            </div>
-            <!-- About Image/Content End -->
-        </div>
-    </div>
-    <!-- About Section End -->
-
     <!-- Project Masonry Section Start -->
     <div class="section section-padding bg-secondary">
         <div class="container">
             <div class="row">
                 <!-- Section Title Start -->
                 <div class="col-12 section-title mb-0" data-aos="fade-up" data-aos-delay="300">
-                    <h2 class="title text-white">Our Porjects</h2>
+                    <h2 class="title text-white">Naša ponuda</h2>
                     <span></span>
-                    <p class="sub-title text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="sub-title text-white">Ponuda je raspoređena po sledećim kategorijama</p>
                 </div>
                 <!-- Section Title End -->
 
                 <!-- Tab Start -->
                 <div class="col-12 mb-4 text-center mt-7 mb-10 pb-2" data-aos="fade-up" data-aos-delay="400">
                     <div class="project-tab mb-n1">
-                        <button data-filter="*" class="is-checked project-filter">All</button>
-                        <button data-filter=".cat-1" class="project-filter">Interior Design</button>
-                        <button data-filter=".cat-2" class="project-filter">Architecture</button>
-                        <button data-filter=".cat-3" class="project-filter">Painting</button>
-                        <button data-filter=".cat-4" class="project-filter">Apartment</button>
+                        <button data-filter="*" class="is-checked project-filter">Sve kategorije</button>
+                        <button data-filter=".cat-1" class="project-filter">Štampani beton</button>
+                        <button data-filter=".cat-2" class="project-filter">Teraco</button>
+                        <button data-filter=".cat-3" class="project-filter">Nešto1</button>
+                        <button data-filter=".cat-4" class="project-filter">Nešto2</button>
                     </div>
                 </div>
                 <!-- Tab End -->
@@ -539,212 +459,6 @@
         </div>
     </div>
     <!-- Project Masonry Section End -->
-
-    <!-- Team Section Start -->
-    <div class="section section-padding">
-        <div class="container">
-            <div class="row">
-                <!-- Section Title Start -->
-                <div class="col-12 section-title" data-aos="fade-up" data-aos-delay="300">
-                    <h2 class="title">Meet Our Teams</h2>
-                    <span></span>
-                    <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <!-- Section Title End -->
-            </div>
-            <div class="row row-cols-sm-2 row-cols-lg-4 row-cols-1 mb-n6">
-                <!-- Team Members Area Start -->
-                <div class="col mb-6">
-                    <!-- Single Team member Start -->
-                    <div class="single-team-member" data-aos="fade-up" data-aos-delay="300">
-                        <!-- Team Member Images Start -->
-                        <div class="team-member-image">
-                            <img src="assets/images/team/1.jpg" alt="Team Member">
-                        </div>
-                        <!-- Team Member Images End -->
-
-                        <!-- Team Member Name/Social Identity Start -->
-                        <div class="team-member-content">
-                            <h2 class="name">Jessica Watson</h2>
-                            <span class="person-title">Director</span>
-                            <ul class="social-widgets">
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-vimeo"></i></a>
-                                </li>
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Team Member Name/Social Identity End -->
-                    </div>
-                    <!-- Single Team member End -->
-                </div>
-
-                <div class="col mb-6">
-                    <!-- Single Team member Start -->
-                    <div class="single-team-member" data-aos="fade-up" data-aos-delay="400">
-                        <!-- Team Member Images Start -->
-                        <div class="team-member-image">
-                            <img src="assets/images/team/2.jpg" alt="Team Member">
-                        </div>
-                        <!-- Team Member Images End -->
-
-                        <!-- Team Member Name/Social Identity Start -->
-                        <div class="team-member-content">
-                            <h2 class="name">Ronald Long</h2>
-                            <span class="person-title">Director</span>
-                            <ul class="social-widgets">
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-vimeo"></i></a>
-                                </li>
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Team Member Name/Social Identity End -->
-                    </div>
-                    <!-- Single Team member End -->
-                </div>
-
-                <div class="col mb-6">
-                    <!-- Single Team member Start -->
-                    <div class="single-team-member" data-aos="fade-up" data-aos-delay="500">
-                        <!-- Team Member Images Start -->
-                        <div class="team-member-image">
-                            <img src="assets/images/team/3.jpg" alt="Team Member">
-                        </div>
-                        <!-- Team Member Images End -->
-
-                        <!-- Team Member Name/Social Identity Start -->
-                        <div class="team-member-content">
-                            <h2 class="name">Ashley Sanchez</h2>
-                            <span class="person-title">Director</span>
-                            <ul class="social-widgets">
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-vimeo"></i></a>
-                                </li>
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Team Member Name/Social Identity End -->
-                    </div>
-                    <!-- Single Team member End -->
-                </div>
-
-                <div class="col mb-6">
-                    <!-- Single Team member Start -->
-                    <div class="single-team-member" data-aos="fade-up" data-aos-delay="600">
-                        <!-- Team Member Images Start -->
-                        <div class="team-member-image">
-                            <img src="assets/images/team/4.jpg" alt="Team Member">
-                        </div>
-                        <!-- Team Member Images End -->
-
-                        <!-- Team Member Name/Social Identity Start -->
-                        <div class="team-member-content">
-                            <h2 class="name">Shirley Gibson</h2>
-                            <span class="person-title">Director</span>
-                            <ul class="social-widgets">
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-vimeo"></i></a>
-                                </li>
-                                <li>
-                                    <a href="index.html#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Team Member Name/Social Identity End -->
-                    </div>
-                    <!-- Single Team member End -->
-                </div>
-                <!-- Team Members Area End -->
-            </div>
-        </div>
-    </div>
-    <!-- Team Section End -->
-
-    <!-- FunFact Section Start -->
-    <div class="section funfact-bg">
-        <div class="container">
-            <div class="row row-cols-sm-2 row-cols-lg-4 row-cols-1 mb-n10">
-                <!-- FunFact Area Start -->
-                <div class="col mb-10">
-                    <!-- Single FunFact Start -->
-                    <div class="funfact-wrap" data-aos="fade-up" data-aos-delay="300">
-                        <div class="funfact-icon">
-                            <img src="assets/images/icon/funfact-icon-1.png" alt="Funfact Icon">
-                        </div>
-                        <span class="odometer" data-count-to="599"></span>
-                        <h6 class="title">Projects Complete</h6>
-                    </div>
-                    <!-- Single FunFact End -->
-                </div>
-                <div class="col mb-10">
-                    <!-- Single FunFact Start -->
-                    <div class="funfact-wrap" data-aos="fade-up" data-aos-delay="400">
-                        <div class="funfact-icon">
-                            <img src="assets/images/icon/funfact-icon-2.png" alt="Funfact Icon">
-                        </div>
-                        <span class="odometer" data-count-to="252"></span>
-                        <h6 class="title">Happy Clients</h6>
-                    </div>
-                    <!-- Single FunFact End -->
-                </div>
-                <div class="col mb-10">
-                    <!-- Single FunFact Start -->
-                    <div class="funfact-wrap" data-aos="fade-up" data-aos-delay="500">
-                        <div class="funfact-icon">
-                            <img src="assets/images/icon/funfact-icon-3.png" alt="Funfact Icon">
-                        </div>
-                        <span class="odometer" data-count-to="1252"></span>
-                        <h6 class="title">Cups of Coffee</h6>
-                    </div>
-                    <!-- Single FunFact End -->
-                </div>
-                <div class="col mb-10">
-                    <!-- Single FunFact Start -->
-                    <div class="funfact-wrap" data-aos="fade-up" data-aos-delay="600">
-                        <div class="funfact-icon">
-                            <img src="assets/images/icon/funfact-icon-4.png" alt="Funfact Icon">
-                        </div>
-                        <span class="odometer" data-count-to="957"></span>
-                        <h6 class="title">Built House</h6>
-                    </div>
-                    <!-- Single FunFact End -->
-                </div>
-                <!-- FunFact Area End -->
-            </div>
-        </div>
-    </div>
-    <!-- FunFact Section End -->
 
     <!-- Testimonial Section Start -->
     <div class="section section-padding">
@@ -890,94 +604,12 @@
     </div>
     <!-- Brand Logo Section End -->
 
-    <!-- Blog Section Start -->
-    <div class="section section-padding">
-        <div class="container">
-
-            <!-- Section Title Start -->
-            <div class="col-12 section-title" data-aos="fade-up" data-aos-delay="300">
-                <h2 class="title">Latest Blog</h2>
-                <span></span>
-                <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <!-- Section Title End -->
-
-            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 mb-n6">
-
-                <div class="col mb-6">
-                    <!-- Blog Single Post Start -->
-                    <div class="blog-single-post-wrapper" data-aos="fade-up" data-aos-delay="300">
-                        <div class="blog-thumb">
-                            <a class="blog-overlay" href="blog-details.html">
-                                <img src="assets/images/blog/blog-post/1.jpg" alt="Blog Post">
-                            </a>
-                        </div>
-                        <div class="blog-content">
-                            <div class="post-meta">
-                                <span>By : <a href="index.html#">Admin</a></span>
-                                <span>14 Jul 2021</span>
-                            </div>
-                            <h3 class="title"><a href="blog-details.html">Best House Renovation</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed do eiusmod tempo</p>
-                            <a href="blog-details.html" class="btn btn-outline-matterhorn btn-hover-primary btn-sm">Read More</a>
-                        </div>
-                    </div>
-                    <!-- Blog Single Post End -->
-                </div>
-
-                <div class="col mb-6">
-                    <!-- Blog Single Post Start -->
-                    <div class="blog-single-post-wrapper" data-aos="fade-up" data-aos-delay="400">
-                        <div class="blog-thumb">
-                            <a class="blog-overlay" href="blog-details.html">
-                                <img src="assets/images/blog/blog-post/2.jpg" alt="Blog Post">
-                            </a>
-                        </div>
-                        <div class="blog-content">
-                            <div class="post-meta">
-                                <span>By : <a href="index.html#">Admin</a></span>
-                                <span>24 May 2021</span>
-                            </div>
-                            <h3 class="title"><a href="blog-details.html">The Project Planning</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed do eiusmod tempo</p>
-                            <a href="blog-details.html" class="btn btn-outline-matterhorn btn-hover-primary btn-sm">Read More</a>
-                        </div>
-                    </div>
-                    <!-- Blog Single Post End -->
-                </div>
-
-                <div class="col mb-6">
-                    <!-- Blog Single Post Start -->
-                    <div class="blog-single-post-wrapper" data-aos="fade-up" data-aos-delay="500">
-                        <div class="blog-thumb">
-                            <a class="blog-overlay" href="blog-details.html">
-                                <img src="assets/images/blog/blog-post/3.jpg" alt="Blog Post">
-                            </a>
-                        </div>
-                        <div class="blog-content">
-                            <div class="post-meta">
-                                <span>By : <a href="index.html#">Admin</a></span>
-                                <span>16 Jun 2021</span>
-                            </div>
-                            <h3 class="title"><a href="blog-details.html">The Finishing work</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed do eiusmod tempo</p>
-                            <a href="blog-details.html" class="btn btn-outline-matterhorn btn-hover-primary btn-sm">Read More</a>
-                        </div>
-                    </div>
-                    <!-- Blog Single Post End -->
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- Blog Section End -->
-
     <footer class="section footer-section bg-secondary">
         <!-- Footer Top Start -->
         <div class="footer-top">
             <div class="container">
                 <div class="row mb-n10">
-                    <div class="col-12 col-sm-6 col-lg-3 col-xl-3 mb-10">
+                    <div class="col-12 col-sm-12 col-lg-4 col-xl-4 mb-12">
                         <div class="single-footer-widget">
                             <div class="footer-logo">
                                 <a href="index.html">
@@ -994,19 +626,7 @@
                             <!-- Contact Address End -->
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 col-xl-3 mb-10">
-                        <div class="single-footer-widget">
-                            <h2 class="widget-title">Our Servcie</h2>
-                            <ul class="widget-list pt-6">
-                                <li><a href="service.html">Mobile App Development</a></li>
-                                <li><a href="service.html">Ui/Ux Design</a></li>
-                                <li><a href="service.html">Web Development</a></li>
-                                <li><a href="service.html">Article Writting</a></li>
-                                <li><a href="service.html">Content Management</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-2 col-xl-3 mb-10">
+                    <div class="col-12 col-sm-12 col-lg-3 col-xl-3 mb-12">
                         <div class="single-footer-widget aos-init aos-animate">
                             <h2 class="widget-title">Quicklink</h2>
                             <ul class="widget-list pt-6">
@@ -1018,7 +638,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-10">
+                    <div class="col-12 col-sm-12 col-lg-5 col-xl-5 mb-12">
                         <div class="single-footer-widget">
                             <h2 class="widget-title">Get in Touch</h2>
                             <div class="widget-body pt-5">
@@ -1062,7 +682,7 @@
             <div class="row align-items-center footer-bottom">
                 <div class="col-12 text-center">
                     <div class="copyright-content">
-                        <p class="mb-0">© 2021 <strong>Terbay </strong> Made width <i class="fa fa-heart text-danger"></i> by <a href="https://hasthemes.com/">HasThemes.</a></p>
+                        <p class="mb-0">© 2021 Made by <strong> D2S2 </strong></p>
                     </div>
                 </div>
             </div>
