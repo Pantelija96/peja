@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+//dohvatanje i obrada json fajla -> lakse je nego asinhrono dohvatanje pomocu JS
+
+$jsonString = $string = file_get_contents("items.json");
+$obj = json_decode ($jsonString, true);
+
+?>
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -58,17 +66,17 @@
                     <!-- Header Top Link/Search Start -->
                     <div class="col-lg-8 col-md-12">
                         <ul class="header-top-links">
-                            <li><i class="fa fa-phone"></i><a href="index.html#"> +012 3456 789 123</a></li>
-                            <li><i class="fa fa-envelope-o"></i><a href="index.html#"> info@example.com</a></li>
-                            <li><i class="fa fa-clock-o"></i> <span>Monday - Sunday 9.00 - 18.00</span> </li>
+                            <li><i class="fa fa-phone"></i><a href="tel:+3818525278"> +381 8525 278</a></li>
+                            <li><i class="fa fa-phone"></i><a href="tel:+381638047342"> +381 63 804 7342</a></li>
+                            <li><i class="fa fa-clock-o"></i> <span>Ponedeljak - Nedelja 8:00 - 16:00</span> </li>
                         </ul>
                     </div>
                     <!-- Header Top Link/Search End -->
                     <!-- Header Top Action Bar Start -->
                     <div class="col-lg-4 col-md-12 text-md-end">
-                        <form class="header-top-action" action="index.html#">
-                            <input class="action-search" type="text" placeholder="Search">
-                            <button class="action-btn" type="submit"><i class="fa fa-search"></i></button>
+                        <form class="header-top-action" action="#">
+                            <input class="action-search" type="text" placeholder="Pretraga">
+                            <button class="action-btn" type="button"><i class="fa fa-search"></i></button>
                         </form>
                     </div>
                     <!-- Header Top Action Bar End -->
@@ -84,7 +92,7 @@
                     <!-- Header Logo Start -->
                     <div class="col-lg-3 col-6">
                         <div class="header-logo">
-                            <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo" /></a>
+                            <a class="naslov" href="index.php">Likom-plus</a>
                         </div>
                     </div>
                     <!-- Header Logo End -->
@@ -94,43 +102,10 @@
                         <!-- Main Menu Start -->
                         <div class="main-menu d-none d-lg-flex">
                             <ul>
-                                <li class="has-children">
-                                    <a href="index.html#">Home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Home 1</a></li>
-                                        <li><a href="index-2.html">Home 2</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="index.html#">Project</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="project-grid.html">Project Style 1</a></li>
-                                        <li><a href="project-grid-2.html">Project Style 2</a></li>
-                                        <li><a href="project-details.html">Project Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="index.html#">Pages</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="faq.html">Faq</a></li>
-                                        <li><a href="error-404.html">Error 404</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="index.html#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                        <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                              <li><a href="index.php">Početna</a></li>
+                              <li><a href="index.php">Projekti</a></li>
+                              <li><a href="index.php">O nama</a></li>
+                              <li><a href="contact.php">Kontakt</a></li>
                             </ul>
                         </div>
                         <!-- Main Menu End -->
@@ -176,43 +151,10 @@
                 <div class="mobile-navigation">
                     <nav>
                         <ul class="mobile-menu">
-                            <li class="has-children">
-                                <a href="index.html#">Home <i class="fa fa-angle-down"></i></a>
-                                <ul class="dropdown">
-                                    <li><a href="index.html">Home One</a></li>
-                                    <li><a href="index-2.html">Home Two</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <a href="index.html#">Project <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul class="dropdown">
-                                    <li><a href="project-grid.html">Project Style 1</a></li>
-                                    <li><a href="project-grid-2.html">Project Style 2</a></li>
-                                    <li><a href="project-details.html">Project Details</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <a href="index.html#">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul class="dropdown">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="service.html">Service</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="faq.html">Faq</a></li>
-                                    <li><a href="error-404.html">Error 404</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <a href="index.html#">Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul class="dropdown">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                    <li><a href="blog-details-sidebar.html">Blog Details Sidebar</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="index.php">Početna</a></li>
+                            <li><a href="index.php">Projekti</a></li>
+                            <li><a href="index.php">O nama</a></li>
+                            <li><a href="contact.php">Kontakt</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -271,7 +213,7 @@
     <!-- Header Section End -->
 
     <!-- Hero/Intro Slider Start -->
-    <div class="section">
+    <!-- <div class="section">
         <div class="hero-slider swiper-container">
             <div class="swiper-wrapper">
                 <div class="hero-slide-item swiper-slide">
@@ -307,7 +249,7 @@
             <div class="home-slider-prev swiper-button-prev main-slider-nav"><i class="fa fa-angle-left"></i></div>
             <div class="home-slider-next swiper-button-next main-slider-nav"><i class="fa fa-angle-right"></i></div>
         </div>
-    </div>
+    </div> -->
     <!-- Hero/Intro Slider End -->
 
     <!-- Project Masonry Section Start -->
@@ -326,137 +268,32 @@
                 <div class="col-12 mb-4 text-center mt-7 mb-10 pb-2" data-aos="fade-up" data-aos-delay="400">
                     <div class="project-tab mb-n1">
                         <button data-filter="*" class="is-checked project-filter">Sve kategorije</button>
-                        <button data-filter=".cat-1" class="project-filter">Štampani beton</button>
-                        <button data-filter=".cat-2" class="project-filter">Teraco</button>
-                        <button data-filter=".cat-3" class="project-filter">Nešto1</button>
-                        <button data-filter=".cat-4" class="project-filter">Nešto2</button>
+                        <?php
+                        if(count($obj) > 0){
+                          foreach ($obj as $o) {
+                            echo("<button data-filter='.cat-".$o['categoryId']."' class='project-filter'>".$o['categoryName']."</button>");
+                          }
+                        }
+                        ?>
                     </div>
                 </div>
                 <!-- Tab End -->
             </div>
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mesonry-list mb-n8">
                 <div class="resizer col"></div>
-                <!-- Single project Start -->
-                <div class="col cat-1 cat-4 mb-8">
-                    <div class="single-project" data-aos="fade-up" data-aos-delay="300">
-                        <div class="project-image">
-                            <a class="project-overlay" href="project-details.html">
-                                <img src="assets/images/project/1.jpg" alt="Project Image">
-                            </a>
-                        </div>
-                        <div class="project-content">
-                            <h4 class="title"> <a href="project-details.html">Hardwood Flooring</a></h4>
-                            <ul class="project-tag">
-                                <li><a href="project-grid.html">Interior</a></li>
-                                <li><a href="project-grid.html">Model</a></li>
-                                <li><a href="project-grid.html">Design</a></li>
-                            </ul>
-                            <a class="link" href="project-details.html">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Portfolio End -->
-                <!-- Single Portfolio Start -->
-                <div class="col cat-2 cat-3 mb-8">
-                    <div class="single-project" data-aos="fade-up" data-aos-delay="400">
-                        <div class="project-image">
-                            <a class="project-overlay" href="project-details.html">
-                                <img src="assets/images/project/2.jpg" alt="Project Image">
-                            </a>
-                        </div>
-                        <div class="project-content">
-                            <h4 class="title"> <a href="project-details.html">The Effective Teamwork</a></h4>
-                            <ul class="project-tag">
-                                <li><a href="project-grid.html">Interior</a></li>
-                                <li><a href="project-grid.html">Model</a></li>
-                                <li><a href="project-grid.html">Design</a></li>
-                            </ul>
-                            <a class="link" href="project-details.html">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Portfolio End -->
-                <!-- Single Portfolio Start -->
-                <div class="col cat-3 cat-4 mb-8">
-                    <div class="single-project" data-aos="fade-up" data-aos-delay="500">
-                        <div class="project-image">
-                            <a class="project-overlay" href="project-details.html">
-                                <img src="assets/images/project/3.jpg" alt="Project Image">
-                            </a>
-                        </div>
-                        <div class="project-content">
-                            <h4 class="title"> <a href="project-details.html">House Extensions</a></h4>
-                            <ul class="project-tag">
-                                <li><a href="project-grid.html">Interior</a></li>
-                                <li><a href="project-grid.html">Model</a></li>
-                                <li><a href="project-grid.html">Design</a></li>
-                            </ul>
-                            <a class="link" href="project-details.html">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Portfolio End -->
-                <!-- Single Portfolio Start -->
-                <div class="col cat-2 cat-3 mb-8">
-                    <div class="single-project" data-aos="fade-up" data-aos-delay="600">
-                        <div class="project-image">
-                            <a class="project-overlay" href="project-details.html">
-                                <img src="assets/images/project/4.jpg" alt="Project Image">
-                            </a>
-                        </div>
-                        <div class="project-content">
-                            <h4 class="title"> <a href="project-details.html">The Project Planning</a></h4>
-                            <ul class="project-tag">
-                                <li><a href="project-grid.html">Interior</a></li>
-                                <li><a href="project-grid.html">Model</a></li>
-                                <li><a href="project-grid.html">Design</a></li>
-                            </ul>
-                            <a class="link" href="project-details.html">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Portfolio End -->
-                <!-- Single Portfolio Start -->
-                <div class="col cat-2 cat-1 mb-8">
-                    <div class="single-project" data-aos="fade-up" data-aos-delay="700">
-                        <div class="project-image">
-                            <a class="project-overlay" href="project-details.html">
-                                <img src="assets/images/project/5.jpg" alt="Project Image">
-                            </a>
-                        </div>
-                        <div class="project-content">
-                            <h4 class="title"> <a href="project-details.html">House Refurbishment</a></h4>
-                            <ul class="project-tag">
-                                <li><a href="project-grid.html">Interior</a></li>
-                                <li><a href="project-grid.html">Model</a></li>
-                                <li><a href="project-grid.html">Design</a></li>
-                            </ul>
-                            <a class="link" href="project-details.html">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Portfolio End -->
-                <!-- Single Portfolio Start -->
-                <div class="col cat-4 cat-1 mb-8">
-                    <div class="single-project" data-aos="fade-up" data-aos-delay="800">
-                        <div class="project-image">
-                            <a class="project-overlay" href="project-details.html">
-                                <img src="assets/images/project/6.jpg" alt="Project Image">
-                            </a>
-                        </div>
-                        <div class="project-content">
-                            <h4 class="title"> <a href="project-details.html">The Finishing work</a></h4>
-                            <ul class="project-tag">
-                                <li><a href="project-grid.html">Interior</a></li>
-                                <li><a href="project-grid.html">Model</a></li>
-                                <li><a href="project-grid.html">Design</a></li>
-                            </ul>
-                            <a class="link" href="project-details.html">Read more</a>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                if(count($obj) > 0){
+                  foreach ($obj as $o) {
+                        for($i = 0; $i< count($o['items']); $i++){
+                          if($o['items'][$i]['show']){
+                            echo("<div class='col cat-".$o['categoryId']." mb-8'> <div class='single-project' data-aos='fade-up' data-aos-delay='300'> <div class='col cat-".$o['categoryName']." mb-8'> <div class='single-project' data-aos='fade-up' data-aos-delay='300'> <div class='project-image'> <a class='project-overlay' href='#'> <img src='".$o['items'][$i]['image']."' alt='Project Image'> </a> </div> <div class='project-content'> <h4 class='title'> <a href='#'>".$o['categoryName']."</a> </h4> </div> </div> </div> </div> </div>");
+                          }
+                        }
+                      }
+                    }
+                ?>
+              </div>
             </div>
-        </div>
     </div>
     <!-- Project Masonry Section End -->
 
@@ -612,51 +449,37 @@
                     <div class="col-12 col-sm-12 col-lg-4 col-xl-4 mb-12">
                         <div class="single-footer-widget">
                             <div class="footer-logo">
-                                <a href="index.html">
-                                    <img src="assets/images/logo/footer-logo.png" alt="Logo Image">
-                                </a>
+                                <a class="naslov" href="index.php">Likom-plus</a>
                             </div>
-                            <p class="desc-content pt-5 pb-3">Lorem ipsum dolor sit amet, consect ascing elit, sed do eiusmod incididunt ut labore et dolore Many desktop</p>
-                            <!-- Contact Address Start -->
+                            <br>
+                            <br>
                             <ul class="widget-address">
-                                <li><i class="fa fa-map-o"></i><span>1234 Road, London, UK</span></li>
-                                <li><i class="fa fa-phone"></i><a href="index.html#">+123 456 789 123</a></li>
-                                <li><i class="fa fa-envelope-o"></i><a href="index.html#">info@example.com</a></li>
+                                <li><i class="fa fa-map-o"></i><span>Bulevar Revolucije 268 a, Grocka, Beograd</span></li>
+                                <li><i class="fa fa-phone"></i><a href="tel:+3818525278"> +381 8525 278</a></li>
+                                <li><i class="fa fa-phone"></i><a href="tel:+381638047342"> +381 63 804 7342</a></li>
                             </ul>
                             <!-- Contact Address End -->
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-lg-3 col-xl-3 mb-12">
                         <div class="single-footer-widget aos-init aos-animate">
-                            <h2 class="widget-title">Quicklink</h2>
+                            <h2 class="widget-title">Brzi linkovi</h2>
                             <ul class="widget-list pt-6">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="contact.html">Help Center</a></li>
-                                <li><a href="contact.html">Conditin</a></li>
-                                <li><a href="contact.html">Term Of Use</a></li>
+                              <li><a href="index.php">Početna</a></li>
+                              <li><a href="index.php">Projekti</a></li>
+                              <li><a href="index.php">O nama</a></li>
+                              <li><a href="contact.php">Kontakt</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-lg-5 col-xl-5 mb-12">
                         <div class="single-footer-widget">
-                            <h2 class="widget-title">Get in Touch</h2>
+                            <h2 class="widget-title">Kako do nas</h2>
                             <div class="widget-body pt-5">
-                                <p class="desc-content mb-0">Enter your email and receive the latest news from us.</p>
 
                                 <!-- Newsletter Form Start -->
                                 <div class="newsletter-form-wrap pt-4">
-                                    <form id="mc-form" class="mc-form">
-                                        <input type="email" id="mc-email" class="form-control email-box" placeholder="email@example.com" name="EMAIL">
-                                        <button id="mc-submit" class="newsletter-btn" type="submit"><i class="fa fa-envelope"></i></button>
-                                    </form>
-                                    <!-- mailchimp-alerts Start -->
-                                    <div class="mailchimp-alerts text-centre">
-                                        <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
-                                        <div class="mailchimp-success text-success"></div><!-- mailchimp-success end -->
-                                        <div class="mailchimp-error text-danger"></div><!-- mailchimp-error end -->
-                                    </div>
-                                    <!-- mailchimp-alerts end -->
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d349.480604997474!2d20.685887778843973!3d44.68957422347017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2srs!4v1633475009013!5m2!1sen!2srs" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                                 </div>
                                 <!-- Newsletter Form End -->
 

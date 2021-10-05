@@ -155,7 +155,7 @@
         slidesPerView: 4,
 		spaceBetween: 30,
 		observer: true,
-		observeParents: true,			
+		observeParents: true,
 		autoHeight: true,
 		setWrapperSize: true,
 
@@ -167,8 +167,8 @@
         navigation: {
             nextEl: '.project-carousel .swiper-button-next',
             prevEl: '.project-carousel .swiper-button-prev',
-		},		
-		
+		},
+
 		// Responsive breakpoints
 		breakpoints: {
 			// when window width is >= 320px
@@ -199,7 +199,7 @@
 		}
 	});
 
-	
+
 	/* ----------------------------
         Portfolio Masonry Activation
     -------------------------------*/
@@ -226,7 +226,7 @@
 	})
 
 	/* ----------------------------
-		Odometer Activation 
+		Odometer Activation
     -------------------------------*/
 	if( $('.odometer').length ){
 
@@ -249,10 +249,10 @@
 				$('.odometer').each(function(){
 					$(this).html($(this).data('count-to'));
 				});
-			}	
+			}
 		});
 	};
-	
+
 	/*----------------------------------------
 		Aos Activation Js
 	------------------------------------------*/
@@ -322,7 +322,7 @@
         }
 	}
 	/*-------------------------
-        Ajax Contact Form 
+        Ajax Contact Form
     ---------------------------*/
     $(function() {
 
@@ -372,7 +372,37 @@
         });
 
     });
-	
+
 
 })(jQuery);
 
+
+function dohvatanjeJsona(){
+  $.getJSON("items.json", function(data){
+    for(var i=0; i< data.length; i++){
+      $("#kategorije").append("<button data-filter='.cat-"+data[i].categoryId+"' class='project-filter'>"+data[i].categoryName+"</button>");
+
+      for(var j=0; j< data[i].items.length; j++){
+        if(data[i].items[j].show){
+          $("#slike").append(`
+            <div class="col cat-`+data[i].categoryId+` mb-8">
+                <div class="single-project" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <a class="project-overlay" href="project-details.html">
+                            <img src="`+data[i].items[j].image+`" alt="Project Image">
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <h4 class="title"> <a href="project-details.html">`+data[i].categoryName+`</a></h4>
+                    </div>
+                </div>
+            </div>
+            `);
+        }
+      }
+
+    }
+  }).fail(function(){
+      console.log("An error has occurred.");
+  });
+}
