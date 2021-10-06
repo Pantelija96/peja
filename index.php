@@ -12,7 +12,10 @@ $obj = json_decode ($jsonString, true);
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Terbay - Construction Bootstrap5 Template</title>
+    <meta name="description" content="Ploče svih vrsta, Behaton, Teraco, Livene">
+    <meta name="keywords" content="Teraco, brušene, Behaton, ploče, Livene, Kulir">
+    <meta name="author" content="John Doe">
+    <title>LIKOM-PLUS</title>
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -103,8 +106,8 @@ $obj = json_decode ($jsonString, true);
                         <div class="main-menu d-none d-lg-flex">
                             <ul>
                               <li><a href="index.php">Početna</a></li>
-                              <li><a href="index.php">Projekti</a></li>
-                              <li><a href="index.php">O nama</a></li>
+                              <!-- <li><a href="index.php">Projekti</a></li>
+                              <li><a href="index.php">O nama</a></li> -->
                               <li><a href="contact.php">Kontakt</a></li>
                             </ul>
                         </div>
@@ -152,8 +155,8 @@ $obj = json_decode ($jsonString, true);
                     <nav>
                         <ul class="mobile-menu">
                             <li><a href="index.php">Početna</a></li>
-                            <li><a href="index.php">Projekti</a></li>
-                            <li><a href="index.php">O nama</a></li>
+                            <!-- <li><a href="index.php">Projekti</a></li>
+                            <li><a href="index.php">O nama</a></li> -->
                             <li><a href="contact.php">Kontakt</a></li>
                         </ul>
                     </nav>
@@ -170,7 +173,7 @@ $obj = json_decode ($jsonString, true);
                     </ul>
                     <!-- Contact Link End -->
 
-                    <!-- Social Widget Start -->
+                    <!-- Social Widget Start
                     <div class="widget-social">
                         <a title="Facebook" href="index.html#"><i class="fa fa-facebook-f"></i></a>
                         <a title="Twitter" href="index.html#"><i class="fa fa-twitter"></i></a>
@@ -178,7 +181,7 @@ $obj = json_decode ($jsonString, true);
                         <a title="Youtube" href="index.html#"><i class="fa fa-youtube"></i></a>
                         <a title="Vimeo" href="index.html#"><i class="fa fa-vimeo"></i></a>
                     </div>
-                    <!-- Social Widget End -->
+                    < Social Widget End -->
                 </div>
                 <!-- Contact Links/Social Links End -->
 
@@ -297,149 +300,7 @@ $obj = json_decode ($jsonString, true);
     </div>
     <!-- Project Masonry Section End -->
 
-    <!-- Testimonial Section Start -->
-    <div class="section section-padding">
-        <div class="container">
-            <div class="row">
 
-                <!-- Section Title Start -->
-                <div class="col-12 section-title" data-aos="fade-up" data-aos-delay="300">
-                    <h2 class="title">Testimonials</h2>
-                    <span></span>
-                    <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <!-- Section Title End -->
-
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="testimonial-carousel">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-
-                                <!-- Single Testimonial Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial" data-aos="fade-up" data-aos-delay="300">
-                                        <div class="text">
-                                            <p>"You could debate whether it is an issue of the theme or a new extension. PlazaThemes support and response has been amazing, helping me with several issues. With no doubt when designing a complex website you will face issues with the compatibility of the theme specially when installing new extensions.</p>
-                                        </div>
-                                        <div class="thumb">
-                                            <img src="assets/images/testimonial/testimonial-author-image-1.png" alt="Testimonial Image">
-                                            <div class="name">
-                                                <h2 class="title">Michile Johnson</h2>
-                                                <h4 class="sub-title">Creative Director</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Testimonial End -->
-
-                                <!-- Single Testimonial Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial" data-aos="fade-up" data-aos-delay="400">
-                                        <div class="text">
-                                            <p>"You could debate whether it is an issue of the theme or a new extension. PlazaThemes support and response has been amazing, helping me with several issues. With no doubt when designing a complex website you will face issues with the compatibility of the theme specially when installing new extensions.</p>
-                                        </div>
-                                        <div class="thumb">
-                                            <img src="assets/images/testimonial/testimonial-author-image-2.png" alt="Testimonial Image">
-                                            <div class="name">
-                                                <h2 class="title">Tianna Streich</h2>
-                                                <h4 class="sub-title">Project CEO</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Testimonial End -->
-
-                                <!-- Single Testimonial Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial" data-aos="fade-up" data-aos-delay="500">
-                                        <div class="text">
-                                            <p>"You could debate whether it is an issue of the theme or a new extension. PlazaThemes support and response has been amazing, helping me with several issues. With no doubt when designing a complex website you will face issues with the compatibility of the theme specially when installing new extensions.</p>
-                                        </div>
-                                        <div class="thumb">
-                                            <img src="assets/images/testimonial/testimonial-author-image-3.png" alt="Testimonial Image">
-                                            <div class="name">
-                                                <h2 class="title">Beau O'Hara</h2>
-                                                <h4 class="sub-title">Creative Director</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Testimonial End -->
-
-                            </div>
-
-                            <!-- pagination -->
-                            <div class="swiper-pagination"></div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial Section End -->
-
-    <!-- Brand Logo Section Start -->
-    <div class="section bg-secondary brand-logo-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-
-                    <div class="brand-logo-carousel text-center">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper align-items-center">
-
-                                <!-- Single Brand Logo Start -->
-                                <div class="swiper-slide">
-                                    <div class="brand-logo" data-aos="fade-up" data-aos-delay="300">
-                                        <img src="assets/images/brand-logo/1.png" alt="Brand Logo">
-                                    </div>
-                                </div>
-                                <!-- Single Brand Logo End -->
-
-                                <!-- Single Brand Logo Start -->
-                                <div class="swiper-slide">
-                                    <div class="brand-logo" data-aos="fade-up" data-aos-delay="400">
-                                        <img src="assets/images/brand-logo/2.png" alt="Brand Logo">
-                                    </div>
-                                </div>
-                                <!-- Single Brand Logo End -->
-
-                                <!-- Single Brand Logo Start -->
-                                <div class="swiper-slide">
-                                    <div class="brand-logo" data-aos="fade-up" data-aos-delay="500">
-                                        <img src="assets/images/brand-logo/3.png" alt="Brand Logo">
-                                    </div>
-                                </div>
-                                <!-- Single Brand Logo End -->
-
-                                <!-- Single Brand Logo Start -->
-                                <div class="swiper-slide">
-                                    <div class="brand-logo" data-aos="fade-up" data-aos-delay="600">
-                                        <img src="assets/images/brand-logo/4.png" alt="Brand Logo">
-                                    </div>
-                                </div>
-                                <!-- Single Brand Logo End -->
-
-                                <!-- Single Brand Logo Start -->
-                                <div class="swiper-slide">
-                                    <div class="brand-logo" data-aos="fade-up" data-aos-delay="700">
-                                        <img src="assets/images/brand-logo/5.png" alt="Brand Logo">
-                                    </div>
-                                </div>
-                                <!-- Single Brand Logo End -->
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Brand Logo Section End -->
 
     <footer class="section footer-section bg-secondary">
         <!-- Footer Top Start -->
@@ -474,25 +335,34 @@ $obj = json_decode ($jsonString, true);
                     </div>
                     <div class="col-12 col-sm-12 col-lg-5 col-xl-5 mb-12">
                         <div class="single-footer-widget">
-                            <h2 class="widget-title">Kako do nas</h2>
-                            <div class="widget-body pt-5">
+                          <div class="single-footer-widget">
+                              <h2 class="widget-title">Ostanite u toku</h2>
+                              <div class="widget-body pt-5">
+                                  <p class="desc-content mb-0">Unesite svoj email i ostanite u toku sa najnovijim dešavanjima.</p>
 
-                                <!-- Newsletter Form Start -->
-                                <div class="newsletter-form-wrap pt-4">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d349.480604997474!2d20.685887778843973!3d44.68957422347017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2srs!4v1633475009013!5m2!1sen!2srs" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                                </div>
-                                <!-- Newsletter Form End -->
+                                  <!-- Newsletter Form Start -->
+                                  <div class="newsletter-form-wrap pt-4">
+                                      <form id="mc-form" method="post" action="#" class="mc-form">
+                                          <input type="email" id="mc-email" class="form-control email-box" placeholder="email@example.com" name="EMAIL">
+                                          <button id="mc-submit" class="newsletter-btn" type="submit"><i class="fa fa-envelope"></i></button>
+                                      </form>
+                                      <!-- mailchimp-alerts Start -->
+                                      <div class="mailchimp-alerts text-centre">
+                                          <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                                          <div class="mailchimp-success text-success"></div><!-- mailchimp-success end -->
+                                          <div class="mailchimp-error text-danger"></div><!-- mailchimp-error end -->
+                                      </div>
+                                      <!-- mailchimp-alerts end -->
+                                  </div>
+                                  <!-- Newsletter Form End -->
 
-                                <!-- Soclial Link Start -->
-                                <div class="widget-social justify-content-start mt-6">
-                                    <a title="Facebook" href="index.html#"><i class="fa fa-facebook-f"></i></a>
-                                    <a title="Twitter" href="index.html#"><i class="fa fa-twitter"></i></a>
-                                    <a title="Linkedin" href="index.html#"><i class="fa fa-linkedin"></i></a>
-                                    <a title="Youtube" href="index.html#"><i class="fa fa-youtube"></i></a>
-                                    <a title="Vimeo" href="index.html#"><i class="fa fa-vimeo"></i></a>
-                                </div>
-                                <!-- Social Link End -->
-                            </div>
+                                  <!-- Soclial Link Start -->
+                                  <div class="widget-social justify-content-start mt-6">
+                                      <a title="Facebook" href="#"><i class="fa fa-facebook-f"></i></a>
+                                  </div>
+                                  <!-- Social Link End -->
+                              </div>
+                          </div>
                         </div>
                     </div>
                 </div>
