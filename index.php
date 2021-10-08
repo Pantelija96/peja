@@ -15,7 +15,7 @@ $obj = json_decode ($jsonString, true);
     <meta name="description" content="Ploče svih vrsta, Behaton, Teraco, Livene">
     <meta name="keywords" content="Teraco, brušene, Behaton, ploče, Livene, Kulir">
     <meta name="author" content="John Doe">
-    <title>LIKOM-PLUS</title>
+    <title>LI-KOM PLUS</title>
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -95,7 +95,7 @@ $obj = json_decode ($jsonString, true);
                     <!-- Header Logo Start -->
                     <div class="col-lg-3 col-6">
                         <div class="header-logo">
-                            <a class="naslov" href="index.php">Likom-plus</a>
+                            <a class="naslov" href="index.php">Li-kom plus</a>
                         </div>
                     </div>
                     <!-- Header Logo End -->
@@ -310,7 +310,7 @@ $obj = json_decode ($jsonString, true);
                     <div class="col-12 col-sm-12 col-lg-4 col-xl-4 mb-12">
                         <div class="single-footer-widget">
                             <div class="footer-logo">
-                                <a class="naslov" href="index.php">Likom-plus</a>
+                                <a class="naslov" href="index.php">Li-kom plus</a>
                             </div>
                             <br>
                             <br>
@@ -327,8 +327,8 @@ $obj = json_decode ($jsonString, true);
                             <h2 class="widget-title">Brzi linkovi</h2>
                             <ul class="widget-list pt-6">
                               <li><a href="index.php">Početna</a></li>
-                              <li><a href="index.php">Projekti</a></li>
-                              <li><a href="index.php">O nama</a></li>
+                              <!-- <li><a href="index.php">Projekti</a></li>
+                              <li><a href="index.php">O nama</a></li> -->
                               <li><a href="contact.php">Kontakt</a></li>
                             </ul>
                         </div>
