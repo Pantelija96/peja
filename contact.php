@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php
-//dohvatanje i obrada json fajla -> lakse je nego asinhrono dohvatanje pomocu JS
-
-$jsonString = $string = file_get_contents("items.json");
-$obj = json_decode ($jsonString, true);
-
-?>
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -115,13 +107,15 @@ $obj = json_decode ($jsonString, true);
 
                             <!-- Header Search Start -->
                             <div class="header-search mr-4">
-                                <a class="header-search-icon" href="index.html#"><i class="fa fa-search"></i></a>
+                                <a class="header-search-icon" href="#"><i class="fa fa-search"></i></a>
                             </div>
                             <!-- Header Search End -->
 
+                            <span style="width: 50px;"></span>
+
                             <!-- Mobile Menu Bar Start -->
                             <div class="mobile-menu-bar-wrapper">
-                                <a href="index.html#" class="mobile-menu-bar"><i class="fa fa-bars"></i></a>
+                                <a href="#" class="mobile-menu-bar"><i class="fa fa-bars"></i></a>
                             </div>
                             <!-- Mobile Menu Bar End -->
 
@@ -164,19 +158,19 @@ $obj = json_decode ($jsonString, true);
                 <div class="mt-auto">
                     <!-- Contact Link Start -->
                     <ul class="contact-links">
-                        <li><i class="fa fa-phone"></i><a href="index.html#"> +012 3456 789 123</a></li>
-                        <li><i class="fa fa-envelope-o"></i><a href="index.html#"> info@example.com</a></li>
+                        <li><i class="fa fa-phone"></i><a href="#"> +012 3456 789 123</a></li>
+                        <li><i class="fa fa-envelope-o"></i><a href="#"> info@example.com</a></li>
                         <li><i class="fa fa-clock-o"></i> <span>Monday - Sunday 9.00 - 18.00</span> </li>
                     </ul>
                     <!-- Contact Link End -->
 
                     <!-- Social Widget Start
                     <div class="widget-social">
-                        <a title="Facebook" href="index.html#"><i class="fa fa-facebook-f"></i></a>
-                        <a title="Twitter" href="index.html#"><i class="fa fa-twitter"></i></a>
-                        <a title="Linkedin" href="index.html#"><i class="fa fa-linkedin"></i></a>
-                        <a title="Youtube" href="index.html#"><i class="fa fa-youtube"></i></a>
-                        <a title="Vimeo" href="index.html#"><i class="fa fa-vimeo"></i></a>
+                        <a title="Facebook" href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                        <a title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                        <a title="Youtube" href="#"><i class="fa fa-youtube"></i></a>
+                        <a title="Vimeo" href="#"><i class="fa fa-vimeo"></i></a>
                     </div>
                     < Social Widget End -->
                 </div>
@@ -199,7 +193,7 @@ $obj = json_decode ($jsonString, true);
 
                 <!-- Offcanvas Search Form Start -->
                 <form class="offcanvas-search-form" action="#">
-                    <input type="text" placeholder="Search Products...">
+                    <input type="text" placeholder="Pretraga">
                 </form>
                 <!-- Offcanvas Search Form End -->
 
@@ -294,7 +288,7 @@ $obj = json_decode ($jsonString, true);
     </div>
     <!-- Contact Map End -->
 
-    <!-- Contact Form Start -->
+    <!-- Contact Form Start
     <div class="section bg-gray section-padding" data-aos="fade-up" data-aos-delay="100">
         <div class="container">
             <div class="row">
@@ -326,7 +320,7 @@ $obj = json_decode ($jsonString, true);
             </div>
         </div>
     </div>
-    <!-- Contact Form End -->
+     Contact Form End -->
 
     <footer class="section footer-section bg-secondary">
         <!-- Footer Top Start -->
