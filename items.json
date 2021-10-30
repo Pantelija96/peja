@@ -1,77 +1,5 @@
 [
     {
-        "categoryName" : "Teraco - brušene stepenice",
-        "categoryId" : 4,
-        "categoryImage" : "",
-        "description": "",
-        "items" :
-            [
-                {
-                    "itemId" : 1,
-                    "name" : "",
-                    "image" : "assets/images/peja_images/teraco_stepenice/1.jpg",
-                    "show" : true,
-                    "categoryId" : 4
-                },
-                {
-                    "itemId" : 2,
-                    "name" : "",
-                    "image" : "assets/images/peja_images/teraco_stepenice/2.jpg",
-                    "show" : true,
-                    "categoryId" : 4
-                },
-                {
-                    "itemId" : 3,
-                    "name" : "",
-                    "image" : "assets/images/peja_images/teraco_stepenice/3.jpg",
-                    "show" : true,
-                    "categoryId" : 4
-                },
-                {
-                    "itemId" : 4,
-                    "name" : "",
-                    "image" : "assets/images/peja_images/teraco_stepenice/4.jpg",
-                    "show" : true,
-                    "categoryId" : 4
-                },
-                {
-                    "itemId" : 5,
-                    "name" : "",
-                    "image" : "assets/images/peja_images/teraco_stepenice/5.jpg",
-                    "show" : true,
-                    "categoryId" : 4
-                },
-                {
-                    "itemId" : 6,
-                    "name" : "",
-                    "image" : "assets/images/peja_images/teraco_stepenice/6.jpg",
-                    "show" : true,
-                    "categoryId" : 4
-                },
-                {
-                    "itemId" : 7,
-                    "name" : "",
-                    "image" : "assets/images/peja_images/teraco_stepenice/7.jpg",
-                    "show" : true,
-                    "categoryId" : 4
-                },
-                {
-                    "itemId" : 8,
-                    "name" : "",
-                    "image" : "assets/images/peja_images/teraco_stepenice/8.jpg",
-                    "show" : true,
-                    "categoryId" : 4
-                },
-                {
-                    "itemId" : 9,
-                    "name" : "",
-                    "image" : "assets/images/peja_images/teraco_stepenice/9.jpg",
-                    "show" : true,
-                    "categoryId" : 4
-                }
-            ]
-    },
-    {
         "categoryName" : "Teraco - brušene ploče",
         "categoryId" : 5,
         "categoryImage" : "",
@@ -172,8 +100,8 @@
             ]
     },
     {
-        "categoryName" : "Behaton - betonske ploče",
-        "categoryId" : 1,
+        "categoryName" : "Teraco - brušene stepenice",
+        "categoryId" : 4,
         "categoryImage" : "",
         "description": "",
         "items" :
@@ -181,37 +109,65 @@
                 {
                     "itemId" : 1,
                     "name" : "",
-                    "image" : "assets/images/peja_images/behaton/1.jpg",
+                    "image" : "assets/images/peja_images/teraco_stepenice/1.jpg",
                     "show" : true,
-                    "categoryId" : 1
+                    "categoryId" : 4
                 },
                 {
                     "itemId" : 2,
                     "name" : "",
-                    "image" : "assets/images/peja_images/behaton/2.jpg",
+                    "image" : "assets/images/peja_images/teraco_stepenice/2.jpg",
                     "show" : true,
-                    "categoryId" : 1
+                    "categoryId" : 4
                 },
                 {
                     "itemId" : 3,
                     "name" : "",
-                    "image" : "assets/images/peja_images/behaton/3.jpg",
+                    "image" : "assets/images/peja_images/teraco_stepenice/3.jpg",
                     "show" : true,
-                    "categoryId" : 1
+                    "categoryId" : 4
                 },
                 {
                     "itemId" : 4,
                     "name" : "",
-                    "image" : "assets/images/peja_images/behaton/4.jpg",
+                    "image" : "assets/images/peja_images/teraco_stepenice/4.jpg",
                     "show" : true,
-                    "categoryId" : 1
+                    "categoryId" : 4
                 },
                 {
                     "itemId" : 5,
                     "name" : "",
-                    "image" : "assets/images/peja_images/behaton/5.jpg",
+                    "image" : "assets/images/peja_images/teraco_stepenice/5.jpg",
                     "show" : true,
-                    "categoryId" : 1
+                    "categoryId" : 4
+                },
+                {
+                    "itemId" : 6,
+                    "name" : "",
+                    "image" : "assets/images/peja_images/teraco_stepenice/6.jpg",
+                    "show" : true,
+                    "categoryId" : 4
+                },
+                {
+                    "itemId" : 7,
+                    "name" : "",
+                    "image" : "assets/images/peja_images/teraco_stepenice/7.jpg",
+                    "show" : true,
+                    "categoryId" : 4
+                },
+                {
+                    "itemId" : 8,
+                    "name" : "",
+                    "image" : "assets/images/peja_images/teraco_stepenice/8.jpg",
+                    "show" : true,
+                    "categoryId" : 4
+                },
+                {
+                    "itemId" : 9,
+                    "name" : "",
+                    "image" : "assets/images/peja_images/teraco_stepenice/9.jpg",
+                    "show" : true,
+                    "categoryId" : 4
                 }
             ]
     },
@@ -270,6 +226,50 @@
                     "image" : "assets/images/peja_images/kulir_kulije/7.jpg",
                     "show" : true,
                     "categoryId" : 2
+                }
+            ]
+    },
+    {
+        "categoryName" : "Behaton - betonske ploče",
+        "categoryId" : 1,
+        "categoryImage" : "",
+        "description": "",
+        "items" :
+            [
+                {
+                    "itemId" : 1,
+                    "name" : "",
+                    "image" : "assets/images/peja_images/behaton/1.jpg",
+                    "show" : true,
+                    "categoryId" : 1
+                },
+                {
+                    "itemId" : 2,
+                    "name" : "",
+                    "image" : "assets/images/peja_images/behaton/2.jpg",
+                    "show" : true,
+                    "categoryId" : 1
+                },
+                {
+                    "itemId" : 3,
+                    "name" : "",
+                    "image" : "assets/images/peja_images/behaton/3.jpg",
+                    "show" : true,
+                    "categoryId" : 1
+                },
+                {
+                    "itemId" : 4,
+                    "name" : "",
+                    "image" : "assets/images/peja_images/behaton/4.jpg",
+                    "show" : true,
+                    "categoryId" : 1
+                },
+                {
+                    "itemId" : 5,
+                    "name" : "",
+                    "image" : "assets/images/peja_images/behaton/5.jpg",
+                    "show" : true,
+                    "categoryId" : 1
                 }
             ]
     },
